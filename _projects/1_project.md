@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: VGA video card
+description: building a VGA video card from scratch—because who doesn’t love turning a bunch of wires and chips into something that actually works?
+img: assets/img/vga4.jpg
 importance: 1
 category: work
 related_publications: true
@@ -65,7 +65,7 @@ Just wrap your images with `<div class="col-sm">` and place them inside `<div cl
 To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
 Here's the code for the last row of images above:
 
-{% raw %}
+<!-- {% raw %}
 
 ```html
 <div class="row justify-content-sm-center">
@@ -78,4 +78,4 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %}
+{% endraw %} -->

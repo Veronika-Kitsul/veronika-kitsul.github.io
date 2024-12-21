@@ -5,8 +5,6 @@
 // Typography
 
 p,
-h1,
-h2,
 h3,
 h4,
 h5,
@@ -14,7 +12,6 @@ h6,
 em,
 div,
 li,
-span,
 strong {
   color: var(--global-text-color);
 }
@@ -35,9 +32,17 @@ table {
   }
 }
 
+h1, 
+h2,
+span {
+  color: var(--global-theme-color);
+  font-weight: 300;
+}
+
 a,
 table.table a {
   color: var(--global-theme-color);
+  font-weight: 700;
 
   &:hover {
     color: var(--global-theme-color);
@@ -255,11 +260,11 @@ ul.task-list input[type="checkbox"] {
   border: 1px solid var(--global-divider-color);
 
   a:not(.active) {
-    color: var(--global-text-color);
+    color: var(--global-theme-color);
   }
 
   a:hover {
-    color: var(--global-hover-color);
+    color: var(--global-text-color);
   }
 
   .dropdown-divider {
@@ -268,27 +273,28 @@ ul.task-list input[type="checkbox"] {
 }
 
 .dropdown-item {
-  color: var(--global-text-color);
+  color: var(--global-theme-color);
 
   &:hover {
-    color: var(--global-hover-color);
+    color: var(--global-text-color);
     background-color: var(--global-bg-color);
   }
 }
 
 .navbar.navbar-light {
   a {
+    color: var(--global-theme-color);
     &:hover {
       text-decoration: none;
     }
   }
 
   .navbar-brand {
-    color: var(--global-text-color);
+    color: var(--global-theme-color);
   }
 
   .navbar-nav .nav-item .nav-link {
-    color: var(--global-text-color);
+    color: var(--global-theme-color);
 
     &:hover {
       color: var(--global-hover-color);
@@ -298,7 +304,7 @@ ul.task-list input[type="checkbox"] {
   .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
     font-weight: bolder;
-    color: var(--global-theme-color);
+    color: var(--global-text-color);
 
     &:hover {
       color: var(--global-hover-color);
@@ -416,8 +422,8 @@ ul.task-list input[type="checkbox"] {
         margin-bottom: 0.5rem;
 
         image {
-          width: 3.5rem;
-          height: 3.5rem;
+          width: 2rem;
+          height: 2rem;
         }
       }
 
@@ -1339,6 +1345,6 @@ ninja-keys::part(ninja-input-wrapper) {
 
 // highlight-search-term
 ::highlight(search) {
-  background-color: var(--global-theme-color);
-  color: var(--global-text-color);
+  color: var(--global-theme-color);
+  font-weight: 700;
 }
