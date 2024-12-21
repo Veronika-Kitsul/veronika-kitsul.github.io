@@ -15,7 +15,6 @@ pagination:
     before: 1 # The number of links before the current page
     after: 3 # The number of links after the current page
 ---
-
 <div class="post">
 
 {% assign blog_name_size = site.blog_name | size %}
@@ -23,13 +22,62 @@ pagination:
 
 {% if blog_name_size > 0 or blog_description_size > 0 %}
 
-  <div class="header-bar">
-    <h1>{{ site.blog_name }}</h1>
-    <h2>{{ site.blog_description }}</h2>
-  </div>
-  {% endif %}
+<div class="header-bar" style="text-align: center;">
+  <h1>🪅 🛸 🧶</h1>
+  <h2 style="display: inline-block; position: relative;">
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 0s;">t</span>
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 0.1s;">h</span>
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 0.2s;">o</span>
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 0.3s;">u</span>
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 0.4s;">g</span>
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 0.5s;">h</span>
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 0.6s;">t</span>
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 0.7s;">s</span>
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 0.8s;"> </span>
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 0.9s;">I</span>
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 1s;"> </span>
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 1.1s;">p</span>
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 1.2s;">r</span>
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 1.3s;">o</span>
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 1.4s;">b</span>
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 1.5s;">a</span>
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 1.6s;">b</span>
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 1.7s;">l</span>
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 1.8s;">y</span>
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 1.9s;"> </span>
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 2s;">o</span>
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 2.1s;">v</span>
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 2.2s;">e</span>
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 2.3s;">r</span>
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 2.4s;">t</span>
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 2.5s;">h</span>
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 2.6s;">o</span>
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 2.7s;">u</span>
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 2.8s;">g</span>
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 2.9s;">h</span>
+    <span style="display: inline-block; position: relative; animation: wave 1s infinite ease-in-out; animation-delay: 3s;">t</span>
+  </h2>
+  <style>
+    @keyframes wave {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+  </style>
+</div>
+
+
+{% endif %}
 
 {% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
+
+
 
   <div class="tag-category-list">
     <ul class="p-0 m-0">

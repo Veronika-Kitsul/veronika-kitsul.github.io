@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-05-20
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Software engineer intern at <a href="https://www.microsoft.com/">Microsoft</a> Azure Networking working on Azure Front Door Web Application Firewall team. :sparkles:
+
