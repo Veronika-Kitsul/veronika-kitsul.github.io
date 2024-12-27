@@ -5,7 +5,7 @@ date: 2024-12-26 19:41:16
 description: Turns out, Wi-Fi isn’t a fan of water! So how do submarines, underwater drones, and ocean explorers stay connected? 
 tags: wireless underwater
 categories: explainer
-bibliography: 2024-12-23-underwater-wireless.bib
+bibliography: 2024-12-26-underwater-wireless.bib
 
 toc:
   - name: Radio Frequency Communications
