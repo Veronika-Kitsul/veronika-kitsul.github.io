@@ -3,7 +3,7 @@ layout: page
 title: Autonomous car navigation
 description: Navigation around the course for autonomous cars using a PSoC
 img: assets/img/4.jpg
-importance: 1
+importance: 2
 category: work
 related_publications: true
 ---
