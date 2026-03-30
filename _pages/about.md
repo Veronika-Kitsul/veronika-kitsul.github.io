@@ -18,13 +18,15 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I'm a junior at <a href="https://www.princeton.edu/" class="underline">Princeton University</a>, concentrating in Electrical and Computer Engineering and pursuing minors in Chinese Language and Computer Science. 
+I'm a soon-to-be graduate of <a href="https://www.princeton.edu/" class="underline">Princeton University</a>, majoring in Electrical and Computer Engineering and pursuing minors in Chinese Language and Computer Science. 
 
-In short, I'm most excited about hardware-software co-design and computer systems. Topics include: wireless communications, computer networking, distributed computing paradigms, kernel bypassing modules like eBPF, semiconductors and solid-state devices, computing architectures and data center technologies.
+I am starting my PhD in Computer Science and Engineering at the University of Michigan, Ann Arbor, this coming fall. I will be working with <a href="https://gitlab.com/mshahbaz/mshahbaz.gitlab.io/-/wikis/home">Muhammad Shahbaz</a> on systems, networking, and architecture problems across the entire computing stack.
 
-Outside academics, I love creating with my hands: anything from traditional Ukrainian beaded jewelry and crocheting to VGA graphics card built on digital logic chips (see my projects page for more!). In the summer, I enjoy hiking and long-distance running. 
+In short, I'm most excited about hardware-software co-design and computer systems. Topics include: wireless communications, networking hardware, computer networking, distributed computing paradigms, kernel bypassing modules like eBPF, semiconductors and solid-state devices, computing architectures and data center technologies.
 
-🇺🇦 I’m originally from a small village in Western Ukraine, and my roots inspire my drive to learn, create, and make an impact.
+Outside academics, I love creating with my hands: anything from traditional Ukrainian beaded jewelry and crocheting to VGA graphics card built on digital logic chips (see my projects page for more!). In the summer, I enjoy hiking and long-distance running. I have completed 3 half-marathons and one full marathon.  
+
+🇺🇦 I’m originally from Dolishnie Zaluchchia, Kolomyia district, Ivano-Frankivsk region (Долішнє Залуччя, Коломийського району, Івано-Франківської області), a small village in Western Ukraine, and my roots inspire my drive to learn, create, and make an impact.
 
 <br>
 
