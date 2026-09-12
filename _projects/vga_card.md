@@ -3,8 +3,8 @@ layout: page
 title: VGA video card
 description: building a VGA video card from scratch—because who doesn’t love turning a bunch of wires and chips into something that actually works?
 img: assets/img/vga4.jpg
-importance: 1
-category: work
+importance: 2
+category: side projects
 ---
 
 Because I cannot afford a real high-tech graphics card from a real hardware company, I built a custom VGA video card from scratch using digital logic components on breadboards with my partner Han Lee. This project allowed me to explore video signal processing fundamentals while creating something that produces real visual output on a standard monitor. 

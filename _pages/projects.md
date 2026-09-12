@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: building stuff for fun, learning, and maybe showing off a little
+description: research, building stuff for fun, and everything in between
 nav: true
 nav_order: 3
-display_categories: [work, other]
+display_categories: [research, side projects, hobbies]
 horizontal: false
 ---
 
@@ -14,7 +14,7 @@ horizontal: false
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
+  <a id="{{ category | slugify }}" href=".#{{ category | slugify }}">
     <h2 class="category">{{ category }}</h2>
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}

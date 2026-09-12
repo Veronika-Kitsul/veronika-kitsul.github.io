@@ -14,15 +14,15 @@ profile:
   #   <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I'm a soon-to-be graduate of <a href="https://www.princeton.edu/" class="underline">Princeton University</a>, majoring in Electrical and Computer Engineering and pursuing minors in Chinese Language and Computer Science. 
+I'm a first-year Ph.D. student at the <a href="https://umich.edu/" class="underline">University of Michigan</a>, working with <a href="https://gitlab.com/mshahbaz/mshahbaz.gitlab.io/-/wikis/home">Muhammad Shahbaz</a> on systems, networking, and architecture problems across the entire computing stack. I research both ML for systems and systems for ML. 
 
-I am starting my PhD in Computer Science and Engineering at the University of Michigan, Ann Arbor, this coming fall. I will be working with <a href="https://gitlab.com/mshahbaz/mshahbaz.gitlab.io/-/wikis/home">Muhammad Shahbaz</a> on systems, networking, and architecture problems across the entire computing stack.
+I have earned my Bachelor's degree in Electrical and Computer Engineering with minors in Chinese Language and Computer Science from  <a href="https://www.princeton.edu/" class="underline">Princeton University</a>. 
 
-In short, I'm most excited about hardware-software co-design and computer systems. Topics include: wireless communications, networking hardware, computer networking, distributed computing paradigms, kernel bypassing modules like eBPF, semiconductors and solid-state devices, computing architectures and data center technologies.
+I'm excited about hardware-software co-design and computer systems. Topics include: wireless communications, networking hardware, computer networking, distributed computing paradigms, machine learning techniques, kernel bypassing modules like eBPF, semiconductors and solid-state devices, computing architectures and data center technologies.
 
 Outside academics, I love creating with my hands: anything from traditional Ukrainian beaded jewelry and crocheting to VGA graphics card built on digital logic chips (see my projects page for more!). In the summer, I enjoy hiking and long-distance running. I have completed 3 half-marathons and one full marathon.  
 
@@ -30,9 +30,9 @@ Outside academics, I love creating with my hands: anything from traditional Ukra
 
 <br>
 
-大家好！我是苏若霓。我是普林斯顿大学的三年级的学生。我的专业是电气与计算机工程，辅修汉语和计算机科学。我来自乌克兰西部的一个小村庄。我不会用普通话说跟我的工作或者我的专业关系的事儿，可是我很喜欢了解中国的文化的问题。
+大家好！我是苏若霓。目前我在密歇根大学读博士。我的研究跟机器学习、网络、计算机体系结构等等有关。我从普林斯顿大学毕业了。我的专业是电气与计算机工程，辅修汉语和计算机科学。2026年夏天我在中国度过了丰富多彩的两个月，提高了我的中文水平。我在北师大上了中文课。我来自乌克兰西部的一个小村庄。
 
-我还有一个用普通话的视屏介绍乌克兰的首都-基辅。看一看我的“projects"。
+我还有一个用普通话介绍乌克兰首都基辅的视频。看一看我的“projects”。
 
 <!-- Link to your favorite [subreddit](http://reddit.com).  -->
 <!--  name your picture `prof_pic.jpg` and put it in the `img/` folder. -->

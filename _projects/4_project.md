@@ -3,8 +3,8 @@ layout: page
 title: photo gallery
 description: catching people and places with my camera
 img: assets/img/window.jpg
-importance: 3
-category: other
+importance: 1
+category: hobbies
 ---
 
 <div class="row justify-content-sm-center">
