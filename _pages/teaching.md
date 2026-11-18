@@ -7,6 +7,10 @@ nav: true
 nav_order: 6
 ---
 
+<style>
+  h4 { color: var(--global-theme-color); }
+</style>
+
 <h4>teaching:</h4> 
 <p><b class="highlight">ece 302 (fall 2025)</b> : <b class="highlight">Robotic and Autonomous Systems Lab</b><small> by Hossein Valavi</small></p>
 <p class="project-description">Assisted students in implementing lab projects such as speed control and navigation for autonomous vehicles, and taught practical hardware skills such as crimping, wiring, and safe hardware integration for robotic systems. Guided hardware design and debugging, including reading schematics, interpreting datasheets, and troubleshooting circuits.</p>
@@ -35,7 +39,7 @@ nav_order: 6
 
 <p><b class="highlight">cos 461 / ece 471</b> : <b class="highlight">Computer Networks</b><small> by Maria Apostolaki</small></p>
 <p><b class="highlight">cos 418</b> : <b class="highlight">Distributed Systems </b><small>by Michael Freedman and Wyatt Lloyd </small></p>
-<p><b class="highlight">cos 417</b> : <b class="highlight">Operating Systems</b><small>by Mae Milano and Amit Levy</small></p>
+<p><b class="highlight">cos 417</b> : <b class="highlight">Operating Systems</b><small> by Mae Milano and Amit Levy</small></p>
 <p><b class="highlight">cos 375 / ece 375</b> : <b class="highlight">Computer Architecture and Organization</b><small> by David August and Margaret Martonosi</small></p>
 <p><b class="highlight">cos 324</b> : <b class="highlight">Introduction to Machine Learning</b><small> by Ruth C. Fong and Lydia T. Liu</small></p>
 

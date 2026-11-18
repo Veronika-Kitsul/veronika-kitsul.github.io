@@ -7,6 +7,10 @@ nav: true
 nav_order: 7
 ---
 
+<style>
+  h4 { color: var(--global-theme-color); }
+</style>
+
 <h4>leadership and service:</h4>
 
 <p><b class="highlight">ukraine global scholars (2019–2025)</b> : <b class="highlight">Mentor, Interviewer, Program Organizer</b></p>

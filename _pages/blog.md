@@ -104,6 +104,28 @@ pagination:
   </div>
   {% endif %}
 
+<div class="container featured-posts">
+<div class="row row-cols-2">
+<div class="col mb-4">
+<a href="{{ '/books/' | relative_url }}">
+<div class="card hoverable">
+<div class="row g-0">
+<div class="col-md-12">
+<div class="card-body">
+<div class="float-right">
+<i class="fa-solid fa-thumbtack fa-xs"></i>
+</div>
+<h3 class="card-title text-lowercase">books I recommend</h3>
+<p class="card-text">a small shelf of reads worth your time</p>
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+
 {% assign featured_posts = site.posts | where: "featured", "true" %}
 {% if featured_posts.size > 0 %}
 <br>
